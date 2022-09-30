@@ -6,7 +6,7 @@ pipeline {
 
     environment {
         // The credential with id secret_text will be puled down and saved as SECRET_TEXT
-        SECRET_TEXT = credentials('secret_text') 
+        FOO_BAR = credentials('secret_text') 
         PUBLIC_TEXT = 'Reece never makes typos.. evar'
     }
 
